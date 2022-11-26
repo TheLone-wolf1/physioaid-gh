@@ -1,0 +1,157 @@
+body{
+    background-color: #f4f4f4;
+	font-size:15px;
+    background-image:linear-gradient(rgba(3, 41, 190, 0.4),rgba(244, 250, 255, 0.4)),url(../images/pexels-oles-kanebckuu-127873.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+
+
+
+/* ================================panel================================= */
+
+.panel {
+    background:linear-gradient(rgba(200, 211, 221, 0.4),rgba(66, 73, 94, 0.4)),url(../images/pexels-nathan-cowley-1300510.jpg) no-repeat ;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plack h1{
+    text-transform: capitalize;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.plack h1>span {
+    color: #0f40ac;
+    font-weight: 600;
+}
+
+
+/* ===============================================faqs=========================================== */
+.faqContainer {
+    margin: 2rem 0 2rem;
+}
+.faqContainer h3{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.faqs {
+    display:grid;
+    grid-template-columns: 1fr;
+    gap:2rem;
+    margin: 2rem;
+}
+
+.faq{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+    height:fit-content;
+    background: #8b93d894;
+    cursor: pointer;
+    border-radius: 2rem;
+}
+
+.faq h4 {
+    font-size: 1rem;
+    line-height: 2.2;
+}
+
+.faq__icon {
+    align-self: flex-start;
+    font-size: 1.2rem;
+}
+
+.faq p {
+    margin-top: 0.8rem;
+    display: none;
+}
+
+.faq.open p {
+    display: block;
+}
+
+
+
+
+/* =======================================pricing============================================== */s
+.stage{
+    margin: 7rem 0 4rem;
+}
+.pricingContainer {
+    background:var(--color-white);
+    padding: 4rem 0 5rem;
+}
+
+.pricingContainer h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.pricingContainer p{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.prices {
+    margin-top: 4rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    gap:1rem;
+}
+
+.price1 {
+    background-color: #f8f8f8;
+    width: 320px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    border-radius: 2px;
+    padding: 2rem;
+    /* cursor: pointer; */
+    box-shadow: 0 4px 4px rgba(95, 93, 93, 0.521);
+    transition: all 0.3s ease-out;
+}
+
+.amount {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.price1:hover {
+    background: linear-gradient(to bottom, #aeb5f3ec, #9ba3ebfa, #8b93d8);
+    transform: scale(1.1) translateY(5px);
+    color: var(--color-white);
+    /* box-shadow: none; */
+}
+
+.see a{
+    background: linear-gradient(to right bottom, #aeb5f3ec, #9ba3ebfa, #8b93d8);
+    color: var(--color-white);
+    padding: 10px 15px;
+    margin: 15px 0 10px;
+    display: block;
+}
+
+/* .price1:hover ~ see a:hover{
+    background: var(--color-white);
+    color: var(--color-black1);
+} */
+
+

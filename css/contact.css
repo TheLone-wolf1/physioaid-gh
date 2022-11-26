@@ -1,0 +1,223 @@
+body{
+	font-size:15px;
+    background: #2980b9 url('https://static.tumblr.com/03fbbc566b081016810402488936fbae/pqpk3dn/MRSmlzpj3/tumblr_static_bg3.png') repeat 0 0;
+	-webkit-animation: 10s linear 0s normal none infinite animate;
+	-moz-animation: 10s linear 0s normal none infinite animate;
+	-ms-animation: 10s linear 0s normal none infinite animate;
+	-o-animation: 10s linear 0s normal none infinite animate;
+	animation: 10s linear 0s normal none infinite animate;
+ 
+}
+ 
+@-webkit-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-moz-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-ms-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-o-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+
+
+/* =============================main contact============================ */
+main {
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 2rem;
+}
+.glass {
+	margin: 11rem auto;
+	background: #fff;
+	height: 36rem;
+	width: 75%;
+	background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3));
+	border-radius: 25px;
+	backdrop-filter: blur(2rem);
+	display: grid;
+	grid-template-columns: 40% 60%;
+	padding: 2rem;
+	box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.contact__details {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	gap: 2rem;
+	background: linear-gradient(to right top, hsla(204, 94%, 38%, 0.781),rgba(0, 123, 180, 0.541),rgba(2, 164, 228, 0.342));
+	backdrop-filter: blur(15rem);
+	border-radius: 25px;
+	border: none;
+	bottom: 10rem;
+	position: relative;
+	padding: 3rem;
+}
+
+
+.contact__image img{
+	width: 10rem;
+	height:10rem;
+	border-radius: 50%;
+}
+
+.contact__details h3 {
+	color:#dae1e7;
+	font-size: 25px;
+	margin-bottom: 1rem;
+	letter-spacing: 0.1em;
+	font-weight: 500;
+}
+
+.location {
+	display: flex;
+	gap: 1rem;
+}
+
+.number {
+	display: flex;
+	gap: 1rem;
+	justify-content: center;
+    align-items: center;
+}
+
+.email {
+	display: flex;
+	gap: 1rem;
+	justify-content: center;
+    align-items: center;
+}
+
+/* .imail {
+	background: linear-gradient(to right top, rgba(27, 25, 25,0.849),rgba(34, 32, 32, 0.66),rgba(49, 43, 43, 0.705),
+	rgba(39, 33, 33, 0.479),rgba(163, 156, 156, 0.89),rgba(238, 231, 231, 0.705));
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	display: inline-flex;
+} */
+
+.socials {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.socials a {
+	color: #fff;
+	position:absolute;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1em;
+	width: 50px;
+	height: 50px;
+	border-radius: 40%;
+	transition:all 0.2s;
+	flex-shrink: 0;
+	position: relative;
+}
+
+
+.socials a:hover {
+	transform: scale(1.2) translateY(-5px);
+}
+
+.facebook {
+	background: linear-gradient(45deg, #3b5998, #0078d7);
+	box-shadow: 0 4px 30px rgba(43, 98, 169, 0.5);
+}
+
+.twitter {
+	background: linear-gradient(45deg, #1da1f2, #0e71c8);
+	box-shadow: 0 4px 30px rgba(19, 127, 212, 0.7);
+}
+
+.instagram {
+	background: linear-gradient(45deg, #405de6,#5851db,
+	 #833ab4,
+	 #c13584,
+	 #e1306c,
+	 #fd1d1d);
+	box-shadow: 0 4px 30px rgba(120, 64, 190, 0.6);
+}
+
+
+
+/* ==================================form=========================== */
+.contact__form {
+	padding: 2rem;	
+}
+
+form {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	gap: 2em;
+}
+
+.form__name {
+	position: relative;
+	display: flex;
+	gap:2em;
+}
+
+form input,textarea {
+	width: 100%;
+	padding: 6px 10px 6px;
+	background: #1da1f2;
+	border: none;
+	border-radius: 10px;
+	outline: none;
+	color: #23242a;
+	font-size: 1em;
+	letter-spacing: 0.05em;
+	transition: 0.5s;
+}
+
+form input:focus {
+	padding: 10px 10px 10px;
+	background: #3b5998;
+	color: var(--color-white);
+}
+
+form textarea:focus {
+	padding: 10px 10px 10px;
+	background: #3b5998;
+	color: var(--color-white);
+}
+
+form button {
+	width: 50%;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+

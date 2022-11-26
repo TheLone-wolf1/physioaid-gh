@@ -1,0 +1,77 @@
+
+.panel {
+    background-image:linear-gradient(rgba(150, 127, 230, 0.4),rgba(136, 194, 209, 0.4)),url(../images/pexels-pixabay-269077.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plack h1{
+    text-transform: capitalize;
+    font-size: 3rem;
+    font-weight: 500;
+    color:var(--color-white);
+}
+
+.plack h1>span {
+    color: var(--color-primary);
+    font-weight: 600;
+}
+
+
+
+/* ==============================services================================= */
+.lane{
+    margin: 5rem 0 4rem;
+    padding: 2rem;
+}
+
+.lane h3{
+    text-align: center;
+    font-size: 1em;
+    letter-spacing: 0.4em;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.serve {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 2rem;
+    margin: 5rem;
+    background: #6dd3e05b;
+    padding: 4rem;
+    border-radius: 10px;
+}
+
+
+.serve .back .holder{
+    display: relative;
+    width: 25rem;
+    height: 25rem;
+    overflow: hidden;
+    border: 10px solid #83b8bf;
+    left: 40px;
+}
+
+.serve .back .holder img {
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.serviceInfo h4 {
+    font-size: 2em;
+    margin: 20px 0;
+    text-align: center;
+    font-weight: 500;
+
+
+}
+
+

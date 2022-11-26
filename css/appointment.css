@@ -1,0 +1,92 @@
+body{
+    background-color: #f4f4f4;
+	font-size:15px;
+    background-image:linear-gradient(rgba(3, 41, 190, 0.4),rgba(244, 250, 255, 0.4)),url(../images/pexels-gratisography-451.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/* ===============================header===================================== */
+.panel {
+    background:linear-gradient(rgba(33, 125, 201, 0.4),rgba(16, 64, 168, 0.4)),url(../images/pexels-anna-nekrashevich-8534168.jpg) no-repeat ;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plack h1{
+    text-transform: capitalize;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.plack h1>span {
+    color: #0f40ac;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+
+
+
+/* ===============================appointments & payment=============================== */
+.first{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    gap: 2rem;
+    padding: 2rem;
+    margin: 3rem;
+}
+
+.ap {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    color: var(--color-white)
+}
+
+.ap h2 {
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+}
+
+.ap h4 {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+}
+
+.ap p {
+    font-size: 18px;
+    color: var(--color-white)
+}
+
+.imageHol {
+    overflow: hidden;
+    width: 26rem;
+    height: 26rem;
+    position: relative;
+    border-radius: 40%;
+}
+
+.imageHol img{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.con {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.4rem;
+    padding: 5rem;
+    background:rgba(244, 250, 255, 0.4);
+}
